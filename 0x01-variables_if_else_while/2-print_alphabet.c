@@ -15,7 +15,7 @@ int main(void)
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		printf("%c", i);
-		printf("\n);
+		printf("\n");
 	}
 	return (0);
 }

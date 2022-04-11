@@ -22,7 +22,7 @@ int main(void)
 		upperCase++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }

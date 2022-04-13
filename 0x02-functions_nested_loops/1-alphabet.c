@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - Entry point
+ * Print lower case alphabet
  * Return: 0 on success
  */
-char main(void)
+void print_alphabet(void)
 {
 char g;
 for (g = 'a'; g <= 'z'; g++)

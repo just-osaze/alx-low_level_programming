@@ -11,5 +11,4 @@ for (g = 'a'; g <= 'z'; g++)
 _putchar(g);
 }
 _putchar('\n');
-return (0);
 }

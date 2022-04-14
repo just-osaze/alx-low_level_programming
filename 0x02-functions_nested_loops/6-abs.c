@@ -2,7 +2,7 @@
 
 /**
  * _abs - computes the absolute value of an integer
- * Return: return 0 (success)
+ * Return: return absolute value of x
  * @x: variable
  *
  */
@@ -18,5 +18,5 @@ int _abs(int x)
 		_putchar(x * -1);
 	}
 
-	return (0);
+	return (x);
 }

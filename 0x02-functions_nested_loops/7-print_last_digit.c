@@ -19,6 +19,6 @@ int print_last_digit(int n)
 	else
 	{
 		_putchar(a + 48);
-		return (1);
+		return (a);
 	}
 }

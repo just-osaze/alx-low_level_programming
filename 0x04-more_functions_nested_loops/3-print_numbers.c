@@ -5,15 +5,24 @@
   * return: void
  */
 
+// void print_numbers(void)
+// {
+// 	int i;
+
+// 	for (i = 0; i < 10; i++)
+//   {
+//     _putchar(i);
+//   }
+
+// 	_putchar("\n");
+// }
+
 void print_numbers(void)
 {
-	int i;
+  char x;
 
-	for (i = 0; i <= 9; i++)
-  {
-    _putchar(i);
-  }
+  for (x = '0'; x <= '9'; x++)
+    _putchar(x);
 
-	_putchar("\n");
+  _putchar('\n');
 }
-

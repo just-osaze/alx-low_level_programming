@@ -5,7 +5,7 @@
   * return: void
  */
 
-/**void print_numbers(void)
+void print_numbers(void)
 {
 	int i;
 
@@ -15,15 +15,4 @@
   }
 
 	_putchar("\n");
-}
-*/
-
-void print_numbers(void)
-{
-  char x;
-
-  for (x = '0'; x <= '9'; x++)
-    _putchar(x);
-
-  _putchar('\n');
 }
